@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.container{
+    width: 592px;
+    margin: auto;
+}
+
+.container h1{
+    font-family: "Inter", sans-serif;
+    font-size: 49px;
+    line-height: 56px;
+
+    font-weight: normal;
+
+    padding: 72px 0 32px;
+}
+
+.container h1 span{
+    font-weight: bold;
+}
+
+.container p, footer{
+    font-size: 14px;
+    line-height: 28px;
+
+    color: #7D7987;
+}
+
+.line{
+    border-bottom: 1px solid #ECEFF2;
+    padding-top: 72px;
+    margin: auto;
+}
+
+footer{
+    padding-top: 16px;
+}
+
+footer a + a{
+    margin-left: 28px;
+}
+
+span, a{
+    color: #FF9900;
+}
+
+.balls{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
